@@ -1,22 +1,22 @@
 class Sonarsweep < Formula
   desc "SonarQube Issue Exporter - Fetch issues to CSV beautifully"
   homepage "https://github.com/ariffrahimin/sonarsweep"
-  version "VERSION_PLACEHOLDER"
+  version "1.0.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ariffrahimin/sonarsweep/releases/download/vVERSION_PLACEHOLDER/sonarsweep-darwin-arm64.tar.gz"
-      sha256 "sha256-darwin-arm64 = f319d5da958e7972f93da079a021e86ba9fe2039368418d1aa1365347e890d6c
+      url "https://github.com/ariffrahimin/sonarsweep/releases/download/v1.0.0/sonarsweep-darwin-arm64.tar.gz"
+      sha256 "5066f906be766f655e8715f4ddcb29e7e3d2d1459e965ff9d6b169c554853e1c"
     end
     on_intel do
-      url "https://github.com/ariffrahimin/sonarsweep/releases/download/vVERSION_PLACEHOLDER/sonarsweep-darwin-amd64.tar.gz"
-      sha256 "sha256-darwin-amd64 = e7e7948a1a1d385822168886ce00dbcd9790aa8e4f8868f83507a81b9e002399
+      url "https://github.com/ariffrahimin/sonarsweep/releases/download/v1.0.0/sonarsweep-darwin-amd64.tar.gz"
+      sha256 "9c6ab1937c74781c05e1cbd25562bb93f42c3490e302a9032007015d181e4525"
     end
   end
 
   on_linux do
-    url "https://github.com/ariffrahimin/sonarsweep/releases/download/vVERSION_PLACEHOLDER/sonarsweep-linux-amd64.tar.gz"
-    sha256 "sha256-linux-amd64 = f17e11ef109ac02edd627903d383cca5cc9fafa74614f00fcfcc80abe05212ea
+    url "https://github.com/ariffrahimin/sonarsweep/releases/download/v1.0.0/sonarsweep-linux-amd64.tar.gz"
+    sha256 "d95dfff33c986380ca3d0cf4fa8db4dd6d875d62718ce87c3b89944ef2afcdfa"
   end
 
   def install
